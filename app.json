@@ -13,13 +13,19 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "309108740044-8he8vo7uh3makgimc15ka1hjujs2v60b.apps.googleusercontent.com"
+        }
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +37,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "config": {
+      "googleSignIn": {
+        "apiKey": "YOUR_API_KEY"
+      }
     }
   }
 }
