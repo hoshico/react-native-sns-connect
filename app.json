@@ -18,14 +18,16 @@
         "googleSignIn": {
           "reservedClientId": "309108740044-8he8vo7uh3makgimc15ka1hjujs2v60b.apps.googleusercontent.com"
         }
-      }
+      },
+      "bundleIdentifier": "com.anonymous.reactnativesnsconnect"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "package": "com.anonymous.reactnativesnsconnect"
     },
     "web": {
       "bundler": "metro",
